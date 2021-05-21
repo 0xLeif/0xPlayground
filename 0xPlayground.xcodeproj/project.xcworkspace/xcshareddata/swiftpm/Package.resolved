@@ -1,0 +1,142 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Chain",
+        "repositoryURL": "https://github.com/0xLeif/Chain",
+        "state": {
+          "branch": null,
+          "revision": "e693d4dcc8b21910299c076346f62d4de80a4aa8",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "Chronicle",
+        "repositoryURL": "https://github.com/0xLeif/Chronicle",
+        "state": {
+          "branch": null,
+          "revision": "5d5e80f63943969eb2c33d686958b3938536a455",
+          "version": "0.2.3"
+        }
+      },
+      {
+        "package": "DataObject",
+        "repositoryURL": "https://github.com/0xLet/DataObject",
+        "state": {
+          "branch": null,
+          "revision": "9b3d4ac019db5d1d313b92f281697b1c8665fc41",
+          "version": "1.1.1"
+        }
+      },
+      {
+        "package": "E",
+        "repositoryURL": "https://github.com/0xLeif/E.num",
+        "state": {
+          "branch": null,
+          "revision": "a4b2b0cf453edf2e2b3853cdcdd7c8596cadbf43",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "FlatMany",
+        "repositoryURL": "https://github.com/0xLeif/FlatMany",
+        "state": {
+          "branch": null,
+          "revision": "1b15d134f14989c8bbb2c98bc164fdcc4c271cbf",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "Observation",
+        "repositoryURL": "https://github.com/0xLet/Observation.git",
+        "state": {
+          "branch": null,
+          "revision": "9e04c7056782c73a8f2ad6cea43f71a1c5a9700b",
+          "version": "0.0.2"
+        }
+      },
+      {
+        "package": "ScreenData",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenData-swift",
+        "state": {
+          "branch": null,
+          "revision": "12b971861ad45ff2178d4fc498e3afe3c3157e49",
+          "version": "0.4.1"
+        }
+      },
+      {
+        "package": "ScreenDataNavigation",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenDataNavigation-swift",
+        "state": {
+          "branch": null,
+          "revision": "ab77c8b18aad9dc0225b0cc13b1b5fc642985798",
+          "version": "0.5.0"
+        }
+      },
+      {
+        "package": "ScreenDataUI",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenDataUI-ios",
+        "state": {
+          "branch": "develop",
+          "revision": "90624af27f62ee7c2c477374ae6ebaa4c43f125b",
+          "version": null
+        }
+      },
+      {
+        "package": "SURL",
+        "repositoryURL": "https://github.com/0xLet/SURL",
+        "state": {
+          "branch": null,
+          "revision": "c04f941eea250f78f5c7151c03cd2489ca9ffc2b",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "SwiftFu",
+        "repositoryURL": "https://github.com/0xLet/SwiftFu",
+        "state": {
+          "branch": null,
+          "revision": "818f889edc5a0c1657b50f3a1e841aa508177323",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "SwiftUIKit",
+        "repositoryURL": "https://github.com/0xLet/SwiftUIKit",
+        "state": {
+          "branch": "develop",
+          "revision": "8196e2dcb952e79f1e364db0a95e3a7c7b21eeac",
+          "version": null
+        }
+      },
+      {
+        "package": "Task",
+        "repositoryURL": "https://github.com/0xLeif/Task",
+        "state": {
+          "branch": null,
+          "revision": "cfe31fd675b88c36194a34e8ccb8e8f8068d41c8",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "WTV",
+        "repositoryURL": "https://github.com/0xLet/WTV",
+        "state": {
+          "branch": null,
+          "revision": "8eefc65bf823eb7612047dbd2df4c6c73864c500",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "Yarn",
+        "repositoryURL": "https://github.com/0xLeif/Yarn",
+        "state": {
+          "branch": null,
+          "revision": "3c50cc133bc71879aaf3bbb15fa271e9506489f8",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

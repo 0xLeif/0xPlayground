@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,14 @@
 		5CF48E3B2657488800E857D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF48E392657488800E857D7 /* LaunchScreen.storyboard */; };
 		5CF48E462657488800E857D7 /* _xPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48E452657488800E857D7 /* _xPlaygroundTests.swift */; };
 		5CF48E512657488800E857D7 /* _xPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF48E502657488800E857D7 /* _xPlaygroundUITests.swift */; };
+		5CF48E60265748AF00E857D7 /* Task in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E5F265748AF00E857D7 /* Task */; };
+		5CF48E632657492800E857D7 /* FlatMany in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E622657492800E857D7 /* FlatMany */; };
+		5CF48E662657493B00E857D7 /* Chronicle in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E652657493B00E857D7 /* Chronicle */; };
+		5CF48E692657494B00E857D7 /* Yarn in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E682657494B00E857D7 /* Yarn */; };
+		5CF48E6C265749E200E857D7 /* SwiftFu in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E6B265749E200E857D7 /* SwiftFu */; };
+		5CF48E6F26574A0100E857D7 /* DataObject in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E6E26574A0100E857D7 /* DataObject */; };
+		5CF48E7226574A3200E857D7 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E7126574A3200E857D7 /* SwiftUIKit */; };
+		5CF48E7526574D8400E857D7 /* ScreenDataUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5CF48E7426574D8400E857D7 /* ScreenDataUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF48E7226574A3200E857D7 /* SwiftUIKit in Frameworks */,
+				5CF48E632657492800E857D7 /* FlatMany in Frameworks */,
+				5CF48E662657493B00E857D7 /* Chronicle in Frameworks */,
+				5CF48E692657494B00E857D7 /* Yarn in Frameworks */,
+				5CF48E7526574D8400E857D7 /* ScreenDataUI in Frameworks */,
+				5CF48E6F26574A0100E857D7 /* DataObject in Frameworks */,
+				5CF48E6C265749E200E857D7 /* SwiftFu in Frameworks */,
+				5CF48E60265748AF00E857D7 /* Task in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +160,16 @@
 			dependencies = (
 			);
 			name = 0xPlayground;
+			packageProductDependencies = (
+				5CF48E5F265748AF00E857D7 /* Task */,
+				5CF48E622657492800E857D7 /* FlatMany */,
+				5CF48E652657493B00E857D7 /* Chronicle */,
+				5CF48E682657494B00E857D7 /* Yarn */,
+				5CF48E6B265749E200E857D7 /* SwiftFu */,
+				5CF48E6E26574A0100E857D7 /* DataObject */,
+				5CF48E7126574A3200E857D7 /* SwiftUIKit */,
+				5CF48E7426574D8400E857D7 /* ScreenDataUI */,
+			);
 			productName = 0xPlayground;
 			productReference = 5CF48E2B2657488700E857D7 /* 0xPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +241,16 @@
 				Base,
 			);
 			mainGroup = 5CF48E222657488700E857D7;
+			packageReferences = (
+				5CF48E5E265748AF00E857D7 /* XCRemoteSwiftPackageReference "Task" */,
+				5CF48E612657492800E857D7 /* XCRemoteSwiftPackageReference "FlatMany" */,
+				5CF48E642657493B00E857D7 /* XCRemoteSwiftPackageReference "Chronicle" */,
+				5CF48E672657494B00E857D7 /* XCRemoteSwiftPackageReference "Yarn" */,
+				5CF48E6A265749E200E857D7 /* XCRemoteSwiftPackageReference "SwiftFu" */,
+				5CF48E6D26574A0100E857D7 /* XCRemoteSwiftPackageReference "DataObject" */,
+				5CF48E7026574A3200E857D7 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+				5CF48E7326574D8400E857D7 /* XCRemoteSwiftPackageReference "ScreenDataUI-ios" */,
+			);
 			productRefGroup = 5CF48E2C2657488700E857D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +629,116 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CF48E5E265748AF00E857D7 /* XCRemoteSwiftPackageReference "Task" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/Task";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		5CF48E612657492800E857D7 /* XCRemoteSwiftPackageReference "FlatMany" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/FlatMany";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		5CF48E642657493B00E857D7 /* XCRemoteSwiftPackageReference "Chronicle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/Chronicle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		5CF48E672657494B00E857D7 /* XCRemoteSwiftPackageReference "Yarn" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/Yarn";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		5CF48E6A265749E200E857D7 /* XCRemoteSwiftPackageReference "SwiftFu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLet/SwiftFu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		5CF48E6D26574A0100E857D7 /* XCRemoteSwiftPackageReference "DataObject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLet/DataObject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		5CF48E7026574A3200E857D7 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLet/SwiftUIKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		5CF48E7326574D8400E857D7 /* XCRemoteSwiftPackageReference "ScreenDataUI-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ServerDriven/ScreenDataUI-ios";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CF48E5F265748AF00E857D7 /* Task */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E5E265748AF00E857D7 /* XCRemoteSwiftPackageReference "Task" */;
+			productName = Task;
+		};
+		5CF48E622657492800E857D7 /* FlatMany */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E612657492800E857D7 /* XCRemoteSwiftPackageReference "FlatMany" */;
+			productName = FlatMany;
+		};
+		5CF48E652657493B00E857D7 /* Chronicle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E642657493B00E857D7 /* XCRemoteSwiftPackageReference "Chronicle" */;
+			productName = Chronicle;
+		};
+		5CF48E682657494B00E857D7 /* Yarn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E672657494B00E857D7 /* XCRemoteSwiftPackageReference "Yarn" */;
+			productName = Yarn;
+		};
+		5CF48E6B265749E200E857D7 /* SwiftFu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E6A265749E200E857D7 /* XCRemoteSwiftPackageReference "SwiftFu" */;
+			productName = SwiftFu;
+		};
+		5CF48E6E26574A0100E857D7 /* DataObject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E6D26574A0100E857D7 /* XCRemoteSwiftPackageReference "DataObject" */;
+			productName = DataObject;
+		};
+		5CF48E7126574A3200E857D7 /* SwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E7026574A3200E857D7 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			productName = SwiftUIKit;
+		};
+		5CF48E7426574D8400E857D7 /* ScreenDataUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CF48E7326574D8400E857D7 /* XCRemoteSwiftPackageReference "ScreenDataUI-ios" */;
+			productName = ScreenDataUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CF48E232657488700E857D7 /* Project object */;
 }
